@@ -9,14 +9,9 @@ psl('rm -rf filer.txt')
 idd = []
 
 def logo():
-  print("    :::     ::::    :::  ::::::::  :::    ::: ")
-  print("  :+: :+:   :+:+:   :+: :+:    :+: :+:    :+: ")
-  print("+:+   +:+  :+:+:+  +:+ +:+    +:+  +:+  +:+  ")
-  print("+#++:++#++: +#+ +:+ +#+ +#+    +:+   +#++:+   ")
-  print("+#+     +#+ +#+  +#+#+# +#+    +#+  +#+  +#+  ")
-  print("#+#     #+# #+#   #+#+# #+#    #+# #+#    #+# ")
-  print("###     ### ###    ####  ########  ###    ### ")
-                                                                                                                                                              
+    print("\n\x1b[1;97m\n\t\n\033[38;2;124;252;0mTHE #HEART_IS_SOFT💝, THE MIND IS #HOT💥, EVERYTHING ELSE IS THE WORK OF MY #GOD ...                                                                                                                                                          🐧🖤😈⌶──────CREATED─BY─MR─ALONE─RAVI──────⌶😈🐧🖤")
+    print("                                                               ────────🌿🐧TH3 ‎‎AL0N3 ‎‎H4CK3R ‎‎B0!!🕊️🐧─────────                      ")
+
 psl('rm -rf filer.txt')
 idd = []
 
@@ -24,7 +19,7 @@ def main():
     psl('clear')
     logo()
     print('APNE FACEBOOK ID KA COOKIE DALIYE')
-    print(' FIRE ')
+    print('_________________________________________')
     coki = input(' [+] Cookies : ')
     cookies={'cookie': coki}
     ch = requests.get('https://mbasic.facebook.com/', cookies=cookies)
@@ -33,15 +28,15 @@ def main():
     else:
         print(' \x1b[1;91mAPKA ID CHAKEPOINT PAR GYA HAI YAA FIR APNE COOKIE GALAT LAGAYI HAIN!! \x1b[1;97m')
         os.sys.exit()
-    print(' \x1b[1;92m  LOGIN SUCCESSFUL 🌍\x1b[1;97m ')
+    print(' \x1b[1;92m APKA ACCOUNT LOGIN HO GYA HAI 😍\x1b[1;97m ')
     print('-------------------------------------------')
-    delay = int(input(' [+]  TIME IN SECOND: '))
+    delay = int(input(' [+]  KITNE SECOND ME GALI BHEZNA HAI APKO😒: '))
     print('-------------------------------------------')
-    lnk = input(' [+] UID / GRUAP LINK 🤝🏻 : ')
+    lnk = input(' [+] USKE PROFILE KA UID YA FIR / TATTON KA GRUAP LINK DAL🤝🏻 : ')
     print('-------------------------------------------')
-    lim = int(input(' [+] FILE REPEAT  ♻️ : '))
+    lim = int(input(' [+] FILE REPEAT KITNE BAR KARU ♻️ : '))
     print('-------------------------------------------')
-    hater = input(' [+] HATERSNAME 👐: ')
+    hater = input(' [+] TATTE KA NAM LIKH YAHAN PAR 👐: ')
     print('-------------------------------------------')
     filee = input(' [+] File : ')
     fileee = open(filee,'r').read()
@@ -53,7 +48,7 @@ def main():
         logo()
         print('')
         print(' \033[1;97m[+] Total messages : %s' %(len(file)))
-        print(' \033[1;97m STARTING SUCCESSFUL 😏')
+        print(' \033[1;97m APKE TATTA KO ABUSE KARNA SHURU HO GYA 😏')
         print('-------------------------------------------')
         for mess in idd:
             sm = '1'
@@ -135,11 +130,11 @@ def msg(mess,coki,lnk,delay,hater):
                 }
                 host = 'https://d.facebook.com'
                 post = ses.post(url=host+rose, data=payload, cookies=cookies).text
-                print(' \x1b[1;97m[+] TIME ⏰⏰ :\x1b[1;92m ' +str(tim))
-                print(' \x1b[1;97m[+] DATE 🕰️⏰⏳:\x1b[1;92m ' +day+'/'+month+'/'+year)
-                print(' \x1b[1;97m[+] HATTERSNAME : \x1b[1;92m' +hater)
-                print(' \x1b[1;97m[+] MESSAGE 🔥:  ON FIRE 🔥🔥\x1b[1;92m ')
-                print('----------------------🌎FACEBOOK🌏--------------------')
+                print(' \x1b[1;97m[+] TIME ⏲️ :\x1b[1;92m ' +str(tim))
+                print(' \x1b[1;97m[+] DATE 📅:\x1b[1;92m ' +day+'/'+month+'/'+year)
+                print(' \x1b[1;97m[+] HATTERS 🤬: \x1b[1;92m' +hater)
+                print(' \x1b[1;97m[+] MESSAGE 📩:  ON FIRE 🔥🔥\x1b[1;92m ')
+                print('----------------------✅️DONE ✅️---------------------')
             except requests.exceptions.ConnectionError:
                 time.sleep(10)
                 pass
