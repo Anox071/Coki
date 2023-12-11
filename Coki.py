@@ -8,8 +8,7 @@ from concurrent.futures import ThreadPoolExecutor as bsn
 psl('rm -rf filer.txt')
 idd = []
 
-def logo():
-  logo ="""
+def logo(): 
   /$$$$$$  /$$   /$$  /$$$$$$  /$$   /$$
  /$$__  $$| $$$ | $$ /$$__  $$| $$  / $$
 | $$  \ $$| $$$$| $$| $$  \ $$|  $$/ $$/
@@ -18,6 +17,10 @@ def logo():
 | $$  | $$| $$\  $$$| $$  | $$ /$$/\  $$
 | $$  | $$| $$ \  $$|  $$$$$$/| $$  \ $$
 |__/  |__/|__/  \__/ \______/ |__/  |__/
+                                        
+                                        
+                                        
+
                                                                                                                         
 psl('rm -rf filer.txt')
 idd = []
